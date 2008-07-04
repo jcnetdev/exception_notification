@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = 'exception_notification'
-  s.version = '1.0.20080706'
-  s.date = '2008-07-06'
-  
+  s.version = '1.1.20080704'
+  s.date = '2008-07-04'
+   
   s.summary = "Allows unhandled exceptions to be captured and sent via email"
   s.description = ""
   
@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.email = 'railsjedi@gmail.com'
   s.homepage = 'http://github.com/jcnetdev/exception_notification'
   
-  s.has_rdoc = false
-  # s.rdoc_options = ["--main", "README"]
-  #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
+  s.has_rdoc = true
+  s.rdoc_options = ["--main", "README"]
+  s.extra_rdoc_files = ["README"]
 
   s.add_dependency 'rails', ['>= 2.1']
 
