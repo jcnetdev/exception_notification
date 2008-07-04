@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'exception_notification'
-  s.version = '1.0.20080705'
-  s.date = '2008-07-05'
+  s.version = '1.0.20080706'
+  s.date = '2008-07-06'
   
   s.summary = "Allows unhandled exceptions to be captured and sent via email"
   s.description = ""
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
              "lib/exception_notifiable.rb",
              "lib/exception_notifier.rb",
              "lib/exception_notifier_helper.rb",
+             "lib/exception_notification.rb",
              "rails/init.rb",
              "views/exception_notifier/_backtrace.rhtml",
              "views/exception_notifier/_environment.rhtml",
