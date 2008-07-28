@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'exception_notification'
-  s.version = '1.2'
-  s.date = '2008-07-27'
+  s.version = '1.3'
+  s.date = '2008-07-28'
    
   s.summary = "Allows unhandled exceptions to be captured and sent via email"
   s.description = ""
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README"]
 
   s.add_dependency 'rails', ['>= 2.1']
-
+  
   s.files = ["MIT-LICENSE",
              "README",
              "exception_notification.gemspec",
